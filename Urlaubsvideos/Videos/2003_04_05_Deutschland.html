@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Urlaubsvideos WebApp">
+<title>2003_04_05_Deutschland</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2003_04_05_Deutschland</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2003_04_05_Deutschland_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2003_04_05_Deutschland_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2003_04_05_Deutschland">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2003_04_05_Deutschland.jpg" data-timeline='{"0.000":"aaa_DyPsA_Nikon_0101","5.000":"DyOjK_Nikon_0100","10.000":"DyPsA_Nikon_0101","15.000":"DyQpC_Nikon_0102","20.000":"DyRmE_Nikon_0103","25.000":"DySjG_Nikon_0104","30.000":"DyTgI_Nikon_0105","35.000":"DyTrW_E50_4525","40.000":"DyUoY_E50_4528","45.000":"DyVxO_Nikon_0108","50.000":"DyXrS_Nikon_0110","55.000":"DyYdG_E50_4540","60.000":"DyZaI_E50_4542","65.000":"DyZxK_E50_4546","70.000":"DzAuM_E50_4549","75.000":"DzBgA_E50_4552","80.000":"DzBgA_E50_4565","85.000":"DzCoQ_E50_4555","90.000":"DzEuI_E50_4561","95.000":"DzHaA_Nikon_0117","100.000":"DzKzW_Nikon_0123","105.000":"DzLlK_E50_4588","110.000":"DzMiM_Nikon_0125","115.000":"DzOcQ_Nikon_0127","120.000":"DzOoE_E50_4594","125.000":"DzPlG_E50_4597","130.000":"DzQtW_E50_4606","135.000":"DzRqY_E50_4609","140.000":"DzSoA_E50_4612","145.000":"DzTlC_E50_4616","150.000":"DzTwQ_E50_4619","155.000":"DzWcI_Nikon_0136","160.000":"DzWnW_E50_4673","165.000":"DzXkY_E50_4628","170.000":"DzYiA_E50_4631","175.000":"DzZfC_E50_4634","180.000":"EaAcE_E50_4637","185.000":"EaBwI_E50_4645","190.000":"EaCtK_E50_4648","195.000":"EaEcA_E50_4650","200.000":"EaEzC_E50_4654","205.000":"EaFwE_E50_4657","210.000":"EaGtG_E50_4660","215.000":"EaHqI_E50_4663","220.000":"EaInK_E50_4672","225.000":"EaIyY_E50_4681","230.000":"EaJkM_E50_4666","235.000":"EaJwA_E50_4669","240.000":"EaKhO_E50_4684","245.000":"EaKtC_Scrsh_2345"}' data-timeline-chapters='{"0.000":"aaa_DyPsA_Nikon_0101"}'>
+        <source src="2003_04_05_Deutschland.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

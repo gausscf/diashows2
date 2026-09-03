@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Urlaubsvideos WebApp">
+<title>1985_04_Westungarn</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">1985_04_Westungarn</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="1985_04_Westungarn_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="1985_04_Westungarn_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#1985_04_Westungarn">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="1985_04_Westungarn.jpg" data-timeline='{"0.000":"aaa_IMG_7237","5.000":"IMG_7202","10.000":"IMG_7203","15.000":"IMG_7204","20.000":"IMG_7205","25.000":"IMG_7206","30.000":"IMG_7207","35.000":"IMG_7208","40.000":"IMG_7209","45.000":"IMG_7210","50.000":"IMG_7211","55.000":"IMG_7212","60.000":"IMG_7213","65.000":"IMG_7214","70.000":"IMG_7215","75.000":"IMG_7216","80.000":"IMG_7217","85.000":"IMG_7218","90.000":"IMG_7219","95.000":"IMG_7220","100.000":"IMG_7221","105.000":"IMG_7222","110.000":"IMG_7223","115.000":"IMG_7224","120.000":"IMG_7225","125.000":"IMG_7226","130.000":"IMG_7227","135.000":"IMG_7228","140.000":"IMG_7229","145.000":"IMG_7230","150.000":"IMG_7231","155.000":"IMG_7232","160.000":"IMG_7233","165.000":"IMG_7234","170.000":"IMG_7235","175.000":"IMG_7236","180.000":"IMG_7237","185.000":"IMG_7238","190.000":"IMG_7239","195.000":"IMG_7240","200.000":"IMG_7241","205.000":"IMG_7242","210.000":"IMG_7243","215.000":"IMG_7244","220.000":"IMG_7245","225.000":"IMG_7246","230.000":"IMG_7247","235.000":"IMG_7248","240.000":"IMG_7249","245.000":"IMG_7250","250.000":"IMG_7251","255.000":"IMG_7252","260.000":"IMG_7253","265.000":"IMG_7254","270.000":"IMG_7255","275.000":"IMG_7256","280.000":"IMG_7257","285.000":"IMG_7258","290.000":"IMG_7259","295.000":"IMG_7260","300.000":"IMG_7261","305.000":"IMG_7262","310.000":"IMG_7263","315.000":"IMG_7264","320.000":"IMG_7265","325.000":"IMG_7266","330.000":"IMG_7267","335.000":"IMG_7268","340.000":"IMG_7269","345.000":"IMG_7270","350.000":"IMG_7271","355.000":"IMG_7272","360.000":"IMG_7273","365.000":"IMG_7274","370.000":"IMG_7275","375.000":"IMG_7276","380.000":"IMG_7277","385.000":"IMG_7278","390.000":"IMG_7279"}' data-timeline-chapters='{"0.000":"aaa_IMG_7237"}'>
+        <source src="1985_04_Westungarn.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

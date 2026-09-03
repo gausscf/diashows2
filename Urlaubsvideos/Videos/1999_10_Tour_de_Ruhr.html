@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Urlaubsvideos WebApp">
+<title>1999_10_Tour_de_Ruhr</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">1999_10_Tour_de_Ruhr</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="1999_10_Tour_de_Ruhr_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="1999_10_Tour_de_Ruhr_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#1999_10_Tour_de_Ruhr">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="1999_10_Tour_de_Ruhr.jpg" data-timeline='{"0.000":"aaa_MtZc_A1_4992","5.000":"MnTo_A1_4970","10.000":"MpNs_A1_4978","15.000":"MqKu_A1_4979","20.000":"MsEy_A1_4985","25.000":"MtCa_A1_4990","30.000":"MtZc_A1_4992","35.000":"MuWe_A1_4996","40.000":"MwQi_A1_5005","45.000":"MyKm_A1_5011","50.000":"NaEq_A1_5017","55.000":"NbBs_A1_5020","60.000":"NbYu_A1_5023","65.000":"NcVw_A1_5026","70.000":"NdSy_A1_5027","75.000":"NeQa_A1_5032","80.000":"NfNc_A1_5033","85.000":"NgKe_A1_5036","90.000":"NhHg_A1_5041","95.000":"NiEi_A1_5044","100.000":"NjBk_A1_5062","105.000":"NjYm_A1_5057","110.000":"NkVo_A1_5053","115.000":"NlSq_A1_5045","120.000":"NnMu_A1_5065","125.000":"NoJw_A1_5068","130.000":"NpGy_A1_5071","135.000":"NrYe_A1_5078","140.000":"NsVg_A1_5081","145.000":"NtSi_A1_5086","150.000":"NuPk_A1_5089","155.000":"NvMm_A1_5090","160.000":"NwJo_A1_5093","165.000":"NxGq_A1_5098","170.000":"NyDs_A1_5099","175.000":"NzAu_A1_5104","180.000":"NzXw_A1_5107","185.000":"ObSa_A1_5113","190.000":"OdMe_A1_5119","195.000":"OeJg_A1_5122","200.000":"OfGi_A1_5124","205.000":"OgDk_A1_5128","210.000":"OhAm_A1_5131","215.000":"OhXo_A1_5132","220.000":"OiUq_A1_5137","225.000":"OkOu_A1_5143","230.000":"OlLw_A1_5145","235.000":"OpAe_Scrsh_9320","240.000":"OpXg_Scrsh_9330"}' data-timeline-chapters='{"0.000":"aaa_MtZc_A1_4992"}'>
+        <source src="1999_10_Tour_de_Ruhr.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

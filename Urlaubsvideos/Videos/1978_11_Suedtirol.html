@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Urlaubsvideos WebApp">
+<title>1978_11_Suedtirol</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">1978_11_Suedtirol</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="1978_11_Suedtirol_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="1978_11_Suedtirol_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#1978_11_Suedtirol">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="1978_11_Suedtirol.jpg" data-timeline='{"0.000":"aaa_IMG_4453","5.000":"IMG_4450","10.000":"IMG_4451","15.000":"IMG_4452","20.000":"IMG_4453","25.000":"IMG_4454","30.000":"IMG_4455","35.000":"IMG_4456","40.000":"IMG_4457","45.000":"IMG_4458","50.000":"IMG_4459","55.000":"IMG_4460","60.000":"IMG_4461","65.000":"IMG_4462","70.000":"IMG_4463","75.000":"IMG_4464","80.000":"IMG_4465","85.000":"IMG_4466","90.000":"IMG_4467","95.000":"IMG_4468","100.000":"IMG_4469","105.000":"IMG_4470","110.000":"IMG_4471","115.000":"IMG_4472","120.000":"IMG_4473","125.000":"IMG_4474","130.000":"IMG_4475","135.000":"IMG_4476","140.000":"IMG_4477"}' data-timeline-chapters='{"0.000":"aaa_IMG_4453"}'>
+        <source src="1978_11_Suedtirol.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

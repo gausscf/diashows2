@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Urlaubsvideos WebApp">
+<title>1980er_Vinschgau</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">1980er_Vinschgau</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="1980er_Vinschgau_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="1980er_Vinschgau_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#1980er_Vinschgau">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="1980er_Vinschgau.jpg" data-timeline='{"0.000":"aaa_OuPdWa_A1_7607","5.000":"OuPdWa_A1_7550","10.000":"OuPdWa_A1_7551","15.000":"OuPdWa_A1_7552","20.000":"OuPdWa_A1_7553","25.000":"OuPdWa_A1_7554","30.000":"OuPdWa_A1_7555","35.000":"OuPdWa_A1_7556","40.000":"OuPdWa_A1_7557","45.000":"OuPdWa_A1_7558","50.000":"OuPdWa_A1_7559","55.000":"OuPdWa_A1_7560","60.000":"OuPdWa_A1_7561","65.000":"OuPdWa_A1_7562","70.000":"OuPdWa_A1_7563","75.000":"OuPdWa_A1_7564","80.000":"OuPdWa_A1_7565","85.000":"OuPdWa_A1_7566","90.000":"OuPdWa_A1_7567","95.000":"OuPdWa_A1_7568","100.000":"OuPdWa_A1_7569","105.000":"OuPdWa_A1_7570","110.000":"OuPdWa_A1_7571","115.000":"OuPdWa_A1_7572","120.000":"OuPdWa_A1_7573","125.000":"OuPdWa_A1_7574","130.000":"OuPdWa_A1_7575","135.000":"OuPdWa_A1_7576","140.000":"OuPdWa_A1_7577","145.000":"OuPdWa_A1_7578","150.000":"OuPdWa_A1_7579","155.000":"OuPdWa_A1_7580","160.000":"OuPdWa_A1_7581","165.000":"OuPdWa_A1_7582","170.000":"OuPdWa_A1_7583","175.000":"OuPdWa_A1_7584","180.000":"OuPdWa_A1_7585","185.000":"OuPdWa_A1_7586","190.000":"OuPdWa_A1_7587","195.000":"OuPdWa_A1_7588","200.000":"OuPdWa_A1_7589","205.000":"OuPdWa_A1_7590","210.000":"OuPdWa_A1_7591","215.000":"OuPdWa_A1_7592","220.000":"OuPdWa_A1_7593","225.000":"OuPdWa_A1_7594","230.000":"OuPdWa_A1_7595","235.000":"OuPdWa_A1_7596","240.000":"OuPdWa_A1_7597","245.000":"OuPdWa_A1_7598","250.000":"OuPdWa_A1_7599","255.000":"OuPdWa_A1_7600","260.000":"OuPdWa_A1_7601","265.000":"OuPdWa_A1_7602","270.000":"OuPdWa_A1_7603","275.000":"OuPdWa_A1_7604","280.000":"OuPdWa_A1_7605","285.000":"OuPdWa_A1_7606","290.000":"OuPdWa_A1_7607","295.000":"OuPdWa_A1_7608","300.000":"OuPdWa_A1_7609","305.000":"OuPdWa_A1_7610","310.000":"ScPqJo_A1_7549"}' data-timeline-chapters='{"0.000":"aaa_OuPdWa_A1_7607"}'>
+        <source src="1980er_Vinschgau.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

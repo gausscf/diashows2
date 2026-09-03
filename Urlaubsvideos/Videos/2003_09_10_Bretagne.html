@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Urlaubsvideos WebApp">
+<title>2003_09_10_Bretagne</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2003_09_10_Bretagne</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2003_09_10_Bretagne_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2003_09_10_Bretagne_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2003_09_10_Bretagne">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2003_09_10_Bretagne.jpg" data-timeline='{"0.000":"aaa_MxEy_E50_4723","5.000":"MvIm_E50_4688","10.000":"MvNc_E50_4693","15.000":"MvRs_E50_4694","20.000":"MvWi_E50_4699","25.000":"MwDg_Nikon_0104","30.000":"MwFo_E50_4703","35.000":"MwMm_Nikon_0106","40.000":"MwOu_E50_4711","45.000":"MwTk_E50_4712","50.000":"MxCq_E50_4720","55.000":"MxEy_E50_4723","60.000":"MxOe_Nikon_0128","65.000":"MxXk_E50_4736","70.000":"MyEi_E50_4744","75.000":"MyNo_Nikon_0131","80.000":"MySe_E50_4747","85.000":"MyWu_E50_4750","90.000":"MzGa_E50_4759","95.000":"MzKq_E50_4756","100.000":"MzRo_E50_4774","105.000":"MzWe_E50_4777","110.000":"NaFk_E50_4783","115.000":"NaKa_E50_4787","120.000":"NaOq_E50_4769","125.000":"NaVo_E50_4784","130.000":"NaXw_E50_4795","135.000":"NbCm_E50_4798","140.000":"NbHc_E50_4801","145.000":"NbQi_E50_4807","150.000":"NbUy_E50_4810","155.000":"NcBw_E50_4814","160.000":"NcGm_E50_4763","165.000":"NcIu_E50_4817","170.000":"NdFw_E50_4823","175.000":"NdIe_E50_4828","180.000":"NdPc_E50_4832","185.000":"NdWa_E50_4838","190.000":"NeFg_E50_4846","195.000":"NeJw_E50_4847","200.000":"NeOm_E50_4852","205.000":"NeTc_E50_4855","210.000":"NfCi_E50_4861","215.000":"NfGy_E50_4864","220.000":"NfLo_E50_4867","225.000":"NfQe_E50_4870","230.000":"NfZk_E50_4876","235.000":"NgIq_E50_4882","240.000":"NgNg_E50_4885","245.000":"NgRw_E50_4888","250.000":"NgWm_E50_4891","255.000":"NhBc_E50_4892","260.000":"NhFs_E50_4897","265.000":"NhOy_E50_4903","270.000":"NiCu_E50_4910","275.000":"NiQq_E50_4921","280.000":"NiVg_E50_4922","285.000":"NjCe_E50_4927","290.000":"NjGu_E50_4942","295.000":"NjLk_E50_4943","300.000":"NjQa_E50_4946","305.000":"NjZg_E50_4949","310.000":"NkIm_E50_4960","315.000":"NkRs_E50_4933","320.000":"NkWi_E50_4936","325.000":"NlFo_E50_4957","330.000":"NlHw_E50_3518","335.000":"NlTk_Scrsh_2301","340.000":"NmEy_Scrsh_2302"}' data-timeline-chapters='{"0.000":"aaa_MxEy_E50_4723"}'>
+        <source src="2003_09_10_Bretagne.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

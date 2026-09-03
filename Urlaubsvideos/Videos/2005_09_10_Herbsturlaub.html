@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Urlaubsvideos WebApp">
+<title>2005_09_10_Herbsturlaub</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2005_09_10_Herbsturlaub</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2005_09_10_Herbsturlaub_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2005_09_10_Herbsturlaub_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2005_09_10_Herbsturlaub">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2005_09_10_Herbsturlaub.jpg" data-timeline='{"0.000":"aaa_XnPo_E50_9727","5.000":"XeSu_E50_9667","10.000":"XfPw_E50_9673","15.000":"XgBk_E50_9674","20.000":"XgMy_E50_9679","25.000":"XgYm_E50_9682","30.000":"XhVo_E50_9687","35.000":"XiHc_E50_9689","40.000":"XjPs_E50_9698","45.000":"XkMu_E50_9706","50.000":"XlJw_E50_9712","55.000":"XlVk_E50_9713","60.000":"XmGy_E50_9718","65.000":"XmSm_E50_9721","70.000":"XnEa_E50_9724","75.000":"XnPo_E50_9727","80.000":"XoMq_E50_9733","85.000":"XpJs_E50_9739","90.000":"XqGu_E50_9745","95.000":"XqSi_E50_9748","100.000":"XsMm_E50_9759","105.000":"XsYa_E50_9763","110.000":"XtJo_E50_9766","115.000":"XtVc_E50_9769","120.000":"XuGq_E50_9772","125.000":"XuSe_E50_9773","130.000":"XvDs_E50_9863","135.000":"XwAu_E50_9869","140.000":"XxUy_E50_9883","145.000":"XySa_E50_9887","150.000":"XzDo_E50_9892","155.000":"YaXs_E50_9791","160.000":"YbUu_E50_9799","165.000":"YcGi_E50_9802","170.000":"YcRw_E50_9778","175.000":"YdDk_E50_9781","180.000":"YdOy_E50_9817","185.000":"YeAm_E50_9812","190.000":"YeMa_E50_9784","195.000":"YfJc_E50_9790","200.000":"YfUq_E50_9803","205.000":"YgGe_E50_9808","210.000":"YgRs_E50_9809","215.000":"YhDg_E50_9818","220.000":"YiAi_E50_9824","225.000":"YiXk_E50_9831","230.000":"YjIy_E50_9833","235.000":"YkGa_E50_9841","240.000":"YkRo_E50_9844","245.000":"YlDc_E50_9847","250.000":"YlOq_E50_9850","255.000":"YmLs_E50_9856","260.000":"YmXg_E50_9857","265.000":"YnIu_E50_9860","270.000":"YoFw_E50_9907","275.000":"YoRk_E50_9908","280.000":"YpCy_E50_9911","285.000":"YpOm_E50_9914","290.000":"YqAa_E50_9918","295.000":"YqLo_E50_9922","300.000":"YqXc_E50_9925","305.000":"YrIq_E50_9926","310.000":"YrUe_E50_9929","315.000":"YsFs_E50_9934","320.000":"YsRg_E50_9935","325.000":"YtOi_E50_9941","330.000":"YtZw_E50_9946","335.000":"YuLk_Scrsh_2305","340.000":"YuWy_Scrsh_2355"}' data-timeline-chapters='{"0.000":"aaa_XnPo_E50_9727"}'>
+        <source src="2005_09_10_Herbsturlaub.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

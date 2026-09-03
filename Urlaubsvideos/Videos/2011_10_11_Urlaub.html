@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Urlaubsvideos WebApp">
+<title>2011_10_11_Urlaub</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2011_10_11_Urlaub</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2011_10_11_Urlaub_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2011_10_11_Urlaub_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2011_10_11_Urlaub">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2011_10_11_Urlaub.jpg" data-timeline='{"0.000":"aaa_IMG_6674","5.000":"IMG_6668","10.000":"IMG_6670","15.000":"IMG_6671","20.000":"IMG_6674","25.000":"IMG_6676","30.000":"IMG_6682","35.000":"IMG_6684","40.000":"IMG_6686","45.000":"IMG_6687","50.000":"IMG_6689","55.000":"IMG_6693","60.000":"IMG_6695","65.000":"IMG_6696","70.000":"IMG_6699","75.000":"IMG_6704","80.000":"IMG_6706","85.000":"IMG_6709","90.000":"IMG_6710","95.000":"IMG_6717","100.000":"IMG_6727","105.000":"IMG_6730","110.000":"IMG_6736","115.000":"IMG_6745","120.000":"IMG_6746","125.000":"IMG_6750","130.000":"IMG_6752","135.000":"IMG_6755","140.000":"IMG_6758","145.000":"IMG_6761","150.000":"IMG_6768","155.000":"IMG_6781","160.000":"IMG_6784","165.000":"IMG_6787","170.000":"IMG_6816","175.000":"IMG_6818","180.000":"IMG_6820","185.000":"IMG_6821","190.000":"IMG_6823","195.000":"IMG_6828","200.000":"IMG_6829","205.000":"IMG_6833","210.000":"IMG_6835","215.000":"IMG_6836","220.000":"IMG_6839","225.000":"IMG_6840","230.000":"IMG_6845","235.000":"IMG_6847","240.000":"IMG_6850","245.000":"IMG_6852","250.000":"IMG_6854","255.000":"IMG_6856","260.000":"IMG_6857","265.000":"IMG_6863","270.000":"IMG_6883","275.000":"IMG_6884","280.000":"IMG_6887","285.000":"IMG_6889","290.000":"IMG_6892","295.000":"IMG_6893","300.000":"IMG_6894","305.000":"IMG_6897","310.000":"IMG_6899","315.000":"IMG_6901","320.000":"IMG_6902","325.000":"IMG_6904","330.000":"IMG_6906","335.000":"IMG_6910","340.000":"IMG_6911","345.000":"IMG_6916","350.000":"IMG_6918","355.000":"IMG_6922","360.000":"IMG_6924","365.000":"IMG_6926","370.000":"IMG_6927","375.000":"IMG_6929","380.000":"IMG_6931","385.000":"Scrsh_1107","390.000":"Scrsh_1108"}' data-timeline-chapters='{"0.000":"aaa_IMG_6674"}'>
+        <source src="2011_10_11_Urlaub.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Urlaubsvideos WebApp">
+<title>2007_05_Urlaub</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2007_05_Urlaub</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2007_05_Urlaub_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2007_05_Urlaub_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2007_05_Urlaub">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2007_05_Urlaub.jpg" data-timeline='{"0.000":"aaa_XbEyNz_Nikon_1156","5.000":"WzHtMm_Scrsh_1300","10.000":"WzHtMm_Scrsh_1301","15.000":"WzYjCh_Nikon_1035","20.000":"XaChZn_Nikon_1037","25.000":"XaCiDf_Nikon_1039","30.000":"XaCjTz_Nikon_1044","35.000":"XaCkGd_Nikon_1045","40.000":"XaCkIi_Nikon_1047","45.000":"XaClKd_Nikon_1049","50.000":"XaClPx_Nikon_1051","55.000":"XaMyIz_Nikon_1055","60.000":"XaMyUu_Nikon_1058","65.000":"XaMyXb_Nikon_1059","70.000":"XaPyYh_Nikon_1062","75.000":"XaUuDe_Nikon_1066","80.000":"XaUwAs_Nikon_1077","85.000":"XaUwIb_Nikon_1085","90.000":"XaUzZh_Nikon_1101","95.000":"XaZwMl_Nikon_1112","100.000":"XaZxUv_Nikon_1119","105.000":"XaZxVm_Nikon_1121","110.000":"XbEtIy_Nikon_1123","115.000":"XbEuPa_Nikon_1133","120.000":"XbEvGu_Nikon_1138","125.000":"XbEvJp_Nikon_1143","130.000":"XbEvXb_Nikon_1146","135.000":"XbEwHc_Nikon_1148","140.000":"XbEyNz_Nikon_1156","145.000":"XbKtOl_Nikon_1160","150.000":"XbKtPy_Nikon_1164","155.000":"XbKtQz_Nikon_1165","160.000":"XbKvDw_Nikon_1170","165.000":"XbKvOq_Nikon_1177","170.000":"XbLfVz_Nikon_1180","175.000":"XbLfXc_Nikon_1181","180.000":"XbZdKb_Nikon_1186","185.000":"XbZdLl_Nikon_1188","190.000":"XbZdLw_Nikon_1189","195.000":"XbZdTv_Nikon_1191","200.000":"XcEsYu_Nikon_1193","205.000":"XcEtAo_Nikon_1195","210.000":"XcEtDi_Nikon_1197","215.000":"XcEtEz_Nikon_1198","220.000":"XcEtGr_Nikon_1199","225.000":"XcEtIu_Nikon_1200","230.000":"XdBeJs_Nikon_1205","235.000":"XdBeLo_Nikon_1206","240.000":"XdBeMi_Nikon_1207","245.000":"XdBfCc_Nikon_1212","250.000":"XdBqXd_Nikon_1218","255.000":"XdBrEp_Nikon_1224","260.000":"XdDhXs_Scrsh_1302","265.000":"XdDiAa_Scrsh_1304","270.000":"XdDiCi_Scrsh_1303","275.000":"XdDiEq_Scrsh_1306"}' data-timeline-chapters='{"0.000":"aaa_XbEyNz_Nikon_1156"}'>
+        <source src="2007_05_Urlaub.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

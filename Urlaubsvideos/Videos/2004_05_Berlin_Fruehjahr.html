@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Urlaubsvideos WebApp">
+<title>2004_05_Berlin_Fruehjahr</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2004_05_Berlin_Fruehjahr</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2004_05_Berlin_Fruehjahr_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2004_05_Berlin_Fruehjahr_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2004_05_Berlin_Fruehjahr">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2004_05_Berlin_Fruehjahr.jpg" data-timeline='{"0.000":"aaa_IMG_5552","5.000":"IMG_5512","10.000":"IMG_5515","15.000":"IMG_5518","20.000":"IMG_5521","25.000":"IMG_5524","30.000":"IMG_5525","35.000":"IMG_5530","40.000":"IMG_5533","45.000":"IMG_5536","50.000":"IMG_5537","55.000":"IMG_5540","60.000":"IMG_5543","65.000":"IMG_5546","70.000":"IMG_5549","75.000":"IMG_5552","80.000":"IMG_5555","85.000":"IMG_5558","90.000":"IMG_5563","95.000":"IMG_5566","100.000":"IMG_5569","105.000":"IMG_5572","110.000":"IMG_5575","115.000":"IMG_5578","120.000":"IMG_5581","125.000":"IMG_5584","130.000":"IMG_5590","135.000":"IMG_5593","140.000":"IMG_5594","145.000":"IMG_5599","150.000":"IMG_5602","155.000":"IMG_5605","160.000":"IMG_5608","165.000":"IMG_5611","170.000":"IMG_5612","175.000":"IMG_5615","180.000":"IMG_5618","185.000":"Scrsh_2302","190.000":"Scrsh_2303"}' data-timeline-chapters='{"0.000":"aaa_IMG_5552"}'>
+        <source src="2004_05_Berlin_Fruehjahr.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

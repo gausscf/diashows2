@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Urlaubsvideos WebApp">
+<title>2001_05_Berlin_Normandie</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2001_05_Berlin_Normandie</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2001_05_Berlin_Normandie_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2001_05_Berlin_Normandie_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2001_05_Berlin_Normandie">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2001_05_Berlin_Normandie.jpg" data-timeline='{"0.000":"UnHg_E50_7256","5.000":"UnSu_E50_7259","10.000":"UoEi_E50_7262","15.000":"UoPw_E50_7265","20.000":"UpBk_E50_7268","25.000":"UpMy_E50_7271","30.000":"UpYm_E50_7276","35.000":"UqKa_E50_7279","40.000":"UqVo_E50_7282","45.000":"UrHc_E50_7253","50.000":"UrSq_E50_7283","55.000":"UsPs_E50_7286","60.000":"UtBg_E50_7366","65.000":"UtMu_E50_7369","70.000":"UtYi_E50_7372","75.000":"UuJw_E50_7373","80.000":"UuVk_E50_7376","85.000":"UvGy_E50_7379","90.000":"UwPo_E50_7289","95.000":"UxBc_E50_7295","100.000":"UxMq_E50_7300","105.000":"UyJs_E50_7306","110.000":"UyVg_E50_7309","115.000":"UzGu_E50_7312","120.000":"UzSi_E50_7313","125.000":"VaDw_E50_7316","130.000":"VaPk_E50_7321","135.000":"VbAy_E50_7324","140.000":"VbYa_E50_7330","145.000":"VcJo_E50_7333","150.000":"VcVc_E50_7334","155.000":"VdGq_E50_7339","160.000":"VeDs_E50_7343","165.000":"VePg_E50_7348","170.000":"VfMi_E50_7352","175.000":"VgJk_E50_7360","180.000":"VhGm_E50_7392","185.000":"VhSa_E50_7395","190.000":"ViDo_E50_7398","195.000":"VjAq_E50_7404","200.000":"VjMe_E50_7406","205.000":"VjXs_E50_7411","210.000":"VkJg_E50_7414","215.000":"VkUu_E50_7417","220.000":"VlGi_E50_7420","225.000":"VlRw_E50_7423","230.000":"VmDk_E50_7426","235.000":"VmOy_E50_7429","240.000":"VnXo_E50_7438","245.000":"VoJc_E50_7439","250.000":"VoUq_E50_7444","255.000":"VpGe_E50_7447","260.000":"VpRs_E50_7450","265.000":"VqDg_E50_7451","270.000":"VrAi_E50_7459","275.000":"VrLw_E50_7462","280.000":"VrXk_E50_7463","285.000":"VsIy_E50_7466","290.000":"VsUm_E50_7469","295.000":"VtRo_E50_7477","300.000":"VuDc_E50_7478","305.000":"VuOq_E50_7482","310.000":"VvAe_E50_7486","315.000":"VvXg_E50_7492","320.000":"VwIu_E50_7506","325.000":"VxFw_E50_7504","330.000":"VyFg_Scrsh_9140","335.000":"VyFg_Scrsh_9150"}' data-timeline-chapters='{"0.000":"UnHg_E50_7256"}'>
+        <source src="2001_05_Berlin_Normandie.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

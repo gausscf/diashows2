@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Urlaubsvideos WebApp">
+<title>1977_04_Rom</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">1977_04_Rom</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="1977_04_Rom_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="1977_04_Rom_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#1977_04_Rom">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="1977_04_Rom.jpg" data-timeline='{"0.000":"DaUq_Unbek_9269","5.000":"DbGe_Unbek_9270","10.000":"DbRs_Unbek_9271","15.000":"DcDg_Unbek_9272","20.000":"DcOu_Unbek_9273","25.000":"DdAi_Unbek_9242","30.000":"DdLw_Unbek_9243","35.000":"DdXk_Unbek_9274","40.000":"DeIy_Unbek_9276","45.000":"DeUm_Unbek_9277","50.000":"DfGa_Unbek_9239","55.000":"DfRo_Unbek_9240","60.000":"DgDc_Unbek_9241","65.000":"DgOq_Unbek_9250","70.000":"DhAe_Unbek_9251","75.000":"DhLs_Unbek_9257","80.000":"DhXg_Unbek_9253","85.000":"DiIu_Unbek_9281","90.000":"DiUi_Unbek_9238","95.000":"DjFw_Unbek_9254","100.000":"DjRk_Unbek_9255","105.000":"DkCy_Unbek_9256","110.000":"DkOm_Unbek_9258","115.000":"DlAa_Unbek_9259","120.000":"DlLo_Unbek_9260","125.000":"DlXc_Unbek_9261","130.000":"DmIq_Unbek_9262","135.000":"DmUe_Unbek_9264","140.000":"DnFs_Unbek_9299","145.000":"DnRg_Unbek_9263","150.000":"DoCu_Unbek_9265","155.000":"DoOi_Unbek_9266","160.000":"DoZw_Unbek_9267","165.000":"DpLk_Unbek_9268","170.000":"DpWy_Unbek_9275","175.000":"DqIm_Unbek_9278","180.000":"DqUa_Unbek_9488","185.000":"DrFo_Unbek_9279","190.000":"DrRc_Unbek_9280","195.000":"DsCq_Unbek_9282","200.000":"DsOe_Unbek_9283","205.000":"DsZs_Unbek_9284","210.000":"DtLg_Unbek_9291","215.000":"DtWu_Unbek_9293","220.000":"DuIi_Unbek_9294","225.000":"DuTw_Unbek_9285","230.000":"DvFk_Unbek_9286","235.000":"DvQy_Unbek_9287","240.000":"DwCm_Unbek_9288","245.000":"DwOa_Unbek_9289","250.000":"DwZo_Unbek_9290","255.000":"DxLc_Unbek_9292","260.000":"DxWq_Unbek_9296","265.000":"DyIe_Unbek_9297","270.000":"DyTs_Unbek_9298","275.000":"DzFg_Unbek_9295","280.000":"DzQu_Unbek_9486","285.000":"EaCi_Unbek_9252","290.000":"EaNw_Unbek_9487","295.000":"EaZk_Unbek_9169","300.000":"EbKy_Unbek_9168"}' data-timeline-chapters='{"0.000":"DaUq_Unbek_9269"}'>
+        <source src="1977_04_Rom.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

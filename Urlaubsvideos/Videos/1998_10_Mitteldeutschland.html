@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Urlaubsvideos WebApp">
+<title>1998_10_Mitteldeutschland</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">1998_10_Mitteldeutschland</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="1998_10_Mitteldeutschland_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="1998_10_Mitteldeutschland_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#1998_10_Mitteldeutschland">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="1998_10_Mitteldeutschland.jpg" data-timeline='{"0.000":"aaa_EzMm_A1_8483","5.000":"DwEy_A1_8377","10.000":"DxCa_A1_8380","15.000":"DyWe_A1_8391","20.000":"DzTg_A1_8396","25.000":"EaQi_A1_8399","30.000":"EbNk_A1_8402","35.000":"EcKm_A1_8405","40.000":"EdHo_A1_8408","45.000":"EeEq_A1_8411","50.000":"EfBs_A1_8414","55.000":"EfYu_A1_8417","60.000":"EgVw_A1_8420","65.000":"EhSy_A1_8423","70.000":"EiQa_A1_8426","75.000":"EjNc_A1_8429","80.000":"EkKe_A1_8432","85.000":"ElHg_A1_8435","90.000":"EmEi_A1_8438","95.000":"EnBk_A1_8441","100.000":"EnYm_A1_8444","105.000":"EoVo_A1_8447","110.000":"EqPs_A1_8451","115.000":"ErMu_A1_8456","120.000":"EsJw_A1_8459","125.000":"EtGy_A1_8462","130.000":"EuEa_A1_8463","135.000":"EvYe_A1_8469","140.000":"EwVg_A1_8472","145.000":"ExSi_A1_8475","150.000":"EyPk_A1_8478","155.000":"EzMm_A1_8483","160.000":"FbGq_A1_8489","165.000":"FcDs_A1_7887","170.000":"FdAu_A1_7890","175.000":"FdXw_A1_7897","180.000":"FeUy_A1_7902","185.000":"FfSa_A1_7905","190.000":"FgPc_A1_7908","195.000":"FlXo_Scrsh_9280","200.000":"FmJc_Scrsh_9290"}' data-timeline-chapters='{"0.000":"aaa_EzMm_A1_8483"}'>
+        <source src="1998_10_Mitteldeutschland.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>
